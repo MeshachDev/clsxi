@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+code{
+    border-radius: 5px;
+    background-color: #e0dfe1;
+    padding:5px 10px;
+}
+header {
+  height: 10vh;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.404);
+}
+header:hover {
+  background-color: white;
+}
+
+header .left {
+  position: relative;
+  width: 50%;
+  height: 10vh;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 2vw;
+}
+.left h1 {
+  font-weight: lighter;
+}
+header .right {
+  position: relative;
+  width: 50%;
+  background-color: transparent;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right: 5vw;
+}
+header .right .routes {
+  list-style: none;
+}
+header .right .routes li a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+header .right .routes li a:hover{
+    color:green;
+    box-shadow: 0px 0px 1px 1px rgb(0, 180, 0) inset;
+}
+header .right .routes li a:active{
+    background-color: rgb(0, 180, 0);
+    color: white;
+}

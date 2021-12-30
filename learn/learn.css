@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin:0px;
+    height: 10000px;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    position : sticky;
+    top: 0px;
+    left: 0px;
+}
